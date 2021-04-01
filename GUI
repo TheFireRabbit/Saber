@@ -1,0 +1,320 @@
+--made by Exodi#5973 dm me on discord for any bugs or patches
+
+local Saber = Instance.new("ScreenGui")
+local balls = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local SaberSimulator = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local Frame_6 = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local Frame_7 = Instance.new("Frame")
+local TextButton_7 = Instance.new("TextButton")
+
+Saber.Name = "Saber"
+Saber.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Saber.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+balls.Name = "balls"
+balls.Parent = Saber
+balls.BackgroundColor3 = Color3.fromRGB(23, 25, 48)
+balls.BorderColor3 = Color3.fromRGB(11, 14, 25)
+balls.BorderSizePixel = 6
+balls.Position = UDim2.new(0.0587878786, 0, 0.263085395, 0)
+balls.Size = UDim2.new(0, 499, 0, 189)
+
+TextButton.Parent = balls
+TextButton.BackgroundColor3 = Color3.fromRGB(18, 21, 62)
+TextButton.BorderColor3 = Color3.fromRGB(6, 6, 25)
+TextButton.BorderSizePixel = 4
+TextButton.Position = UDim2.new(0.358371079, 0, 0.149372399, 0)
+TextButton.Size = UDim2.new(0, 141, 0, 51)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "Auto Train"
+TextButton.TextColor3 = Color3.fromRGB(211, 183, 81)
+TextButton.TextSize = 25.000
+
+Frame.Parent = TextButton
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.900
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.515152276, 0)
+Frame.Size = UDim2.new(0, 141, 0, 23)
+
+SaberSimulator.Name = "Saber Simulator"
+SaberSimulator.Parent = balls
+SaberSimulator.BackgroundColor3 = Color3.fromRGB(31, 25, 63)
+SaberSimulator.BorderColor3 = Color3.fromRGB(0, 5, 29)
+SaberSimulator.BorderSizePixel = 4
+SaberSimulator.Position = UDim2.new(-0.0147496527, 0, -0.120468944, 0)
+SaberSimulator.Size = UDim2.new(0, 514, 0, 33)
+SaberSimulator.Font = Enum.Font.Cartoon
+SaberSimulator.Text = "Saber Simulator "
+SaberSimulator.TextColor3 = Color3.fromRGB(234, 199, 0)
+SaberSimulator.TextSize = 25.000
+
+Frame_2.Parent = SaberSimulator
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 0.950
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.515151978, 0)
+Frame_2.Size = UDim2.new(0, 513, 0, 15)
+
+TextButton_2.Parent = balls
+TextButton_2.BackgroundColor3 = Color3.fromRGB(18, 21, 62)
+TextButton_2.BorderColor3 = Color3.fromRGB(6, 6, 25)
+TextButton_2.BorderSizePixel = 4
+TextButton_2.Position = UDim2.new(0.0237016678, 0, 0.149372339, 0)
+TextButton_2.Size = UDim2.new(0, 141, 0, 51)
+TextButton_2.Font = Enum.Font.Cartoon
+TextButton_2.Text = "Auto Sell"
+TextButton_2.TextColor3 = Color3.fromRGB(211, 183, 81)
+TextButton_2.TextSize = 25.000
+
+Frame_3.Parent = TextButton_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BackgroundTransparency = 0.900
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 0.515152276, 0)
+Frame_3.Size = UDim2.new(0, 141, 0, 23)
+
+TextButton_3.Parent = balls
+TextButton_3.BackgroundColor3 = Color3.fromRGB(18, 21, 62)
+TextButton_3.BorderColor3 = Color3.fromRGB(6, 6, 25)
+TextButton_3.BorderSizePixel = 4
+TextButton_3.Position = UDim2.new(0.699052393, 0, 0.149372324, 0)
+TextButton_3.Size = UDim2.new(0, 140, 0, 51)
+TextButton_3.Font = Enum.Font.Cartoon
+TextButton_3.Text = "Farm Candy"
+TextButton_3.TextColor3 = Color3.fromRGB(211, 183, 81)
+TextButton_3.TextSize = 25.000
+
+Frame_4.Parent = TextButton_3
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 0.900
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(-0.00675659161, 0, 0.525454938, 0)
+Frame_4.Size = UDim2.new(0, 140, 0, 23)
+
+TextButton_4.Parent = balls
+TextButton_4.BackgroundColor3 = Color3.fromRGB(18, 21, 62)
+TextButton_4.BorderColor3 = Color3.fromRGB(6, 6, 25)
+TextButton_4.BorderSizePixel = 4
+TextButton_4.Position = UDim2.new(0.0257729199, 0, 0.535615623, 0)
+TextButton_4.Size = UDim2.new(0, 135, 0, 51)
+TextButton_4.Font = Enum.Font.Cartoon
+TextButton_4.Text = "Anti AFK"
+TextButton_4.TextColor3 = Color3.fromRGB(211, 183, 81)
+TextButton_4.TextSize = 25.000
+
+Frame_5.Parent = TextButton_4
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 0.900
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(-0.00680508092, 0, 0.52545464, 0)
+Frame_5.Size = UDim2.new(0, 135, 0, 23)
+
+TextButton_5.Parent = balls
+TextButton_5.BackgroundColor3 = Color3.fromRGB(18, 21, 62)
+TextButton_5.BorderColor3 = Color3.fromRGB(6, 6, 25)
+TextButton_5.BorderSizePixel = 4
+TextButton_5.Position = UDim2.new(0.35652861, 0, 0.535615623, 0)
+TextButton_5.Size = UDim2.new(0, 141, 0, 51)
+TextButton_5.Font = Enum.Font.Cartoon
+TextButton_5.Text = "Farm Crowns"
+TextButton_5.TextColor3 = Color3.fromRGB(211, 183, 81)
+TextButton_5.TextSize = 25.000
+
+Frame_6.Parent = TextButton_5
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 0.900
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(-0.00684935646, 0, 0.52545464, 0)
+Frame_6.Size = UDim2.new(0, 141, 0, 23)
+
+TextButton_6.Parent = balls
+TextButton_6.BackgroundColor3 = Color3.fromRGB(18, 21, 62)
+TextButton_6.BorderColor3 = Color3.fromRGB(6, 6, 25)
+TextButton_6.BorderSizePixel = 4
+TextButton_6.Position = UDim2.new(0.693201959, 0, 0.535615623, 0)
+TextButton_6.Size = UDim2.new(0, 141, 0, 51)
+TextButton_6.Font = Enum.Font.Cartoon
+TextButton_6.Text = "Infinit Jump"
+TextButton_6.TextColor3 = Color3.fromRGB(211, 183, 81)
+TextButton_6.TextSize = 25.000
+
+Frame_7.Parent = TextButton_6
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BackgroundTransparency = 0.900
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(-0.00684935646, 0, 0.52545464, 0)
+Frame_7.Size = UDim2.new(0, 141, 0, 23)
+
+TextButton_7.Parent = balls
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BackgroundTransparency = 0.800
+TextButton_7.Position = UDim2.new(-0.00193841383, 0, 0.922121644, 0)
+TextButton_7.Size = UDim2.new(0, 87, 0, 14)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Exodi#5973"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+
+local function SHVAMS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Button = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	Button.MouseButton1Click:connect(function()
+		while wait() do
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+				if v:IsA("Tool") then
+					v.RemoteClick:FireServer()
+				end
+			end
+	
+			game:GetService("ReplicatedStorage").Events.Clicked:FireServer()
+	
+			game:GetService("ReplicatedStorage").Events.UpdateData:InvokeServer()
+	
+		end
+	
+	end)
+	
+end
+coroutine.wrap(SHVAMS_fake_script)()
+local function GTTRF_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local Button = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	Button.MouseButton1Click:connect(function()
+		while wait()do
+			game:GetService("ReplicatedStorage").Events.Sell:FireServer()
+			game:GetService("ReplicatedStorage").Events.UpdateData:InvokeServer()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(538.262024, 185.794769, 152.230942, -0.867805183, 0.0139459968, -0.49670881, -5.2872398e-08, 0.999606073, 0.0280658305, 0.496904552, 0.0243556798, -0.867463291)
+		end
+	end)
+	
+end
+coroutine.wrap(GTTRF_fake_script)()
+local function LLRO_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local Button = script.Parent 
+	
+	Button.MouseButton1Click:connect(function()
+		local tween = game:GetService("TweenService")
+		local character = game.Players.LocalPlayer.character
+		local humanoid = character.HumanoidRootPart
+		while wait()do
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+			wait(1)
+			for i, v in next, {game.Workspace.CandyHolder} do
+				pcall(
+					function()
+						if v:FindFirstChild("CandyCane") then
+							tween:Create(humanoid, TweenInfo.new(1, Enum.EasingStyle.Linear), {CFrame = v.CandyCane.CFrame}):Play()
+							wait(2)
+							v.CandyCane:Destroy()
+						end
+					end
+				)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(LLRO_fake_script)()
+local function EPHZ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local Button = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	Button.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(EPHZ_fake_script)()
+local function DQYLAQJ_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local Button = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	Button.MouseButton1Click:connect(function()
+		
+	
+		while wait()do
+	
+			game:GetService("ReplicatedStorage").Events.UpdateData:InvokeServer()
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(793.925964, 250.26535, 29.3515739, -0.82883662, -0.361313432, 0.427179754, 0, 0.763515353, 0.645789742, -0.5594908, 0.53525418, -0.632829428)
+		end
+		
+		end)
+	
+	
+	
+end
+coroutine.wrap(DQYLAQJ_fake_script)()
+local function KCAQEMB_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	local Button = script.Parent 
+	local Player = game:GetService'Players'.LocalPlayer;
+	local UIS = game:GetService'UserInputService';
+	Button.MouseButton1Click:connect(function()
+		_G.JumpHeight = 50;
+	
+	function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+	UIS.InputBegan:connect(function(UserInput)
+		if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+			Action(Player.Character.Humanoid, function(self)
+				if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+					Action(self.Parent.HumanoidRootPart, function(self)
+						self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+					end)
+				end
+			end)
+		end
+	end)
+	
+	end)
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(KCAQEMB_fake_script)()
+local function UGNT_fake_script() -- balls.LocalScript 
+	local script = Instance.new('LocalScript', balls)
+
+	local n = game.StarterGui.Saber
+	
+	n.balls.active = true
+	n.balls.selectable = true
+	n.balls.draggable = true
+	
+end
+coroutine.wrap(UGNT_fake_script)()
